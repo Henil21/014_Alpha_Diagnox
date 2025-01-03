@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Response from Vision Assist</title>
+    <!-- Include marked.js for markdown rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <h1>Response from Vision Assist</h1>
+
+    <div id="response" class="response"></div>
+
+    <script>
+        // Use the marked.js to parse the markdown response
+        const markdownResponse = `{{ response | tojson }}`;  // Escape the response text to JSON format
+        document.getElementById("response").innerHTML = marked.parse(markdownResponse);
+    </script>
+</body>
+</html>
