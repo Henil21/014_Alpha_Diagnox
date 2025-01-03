@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='skin.css') }}"> -->
+    <link rel="stylesheet" href="/static/main.css">
+    <link rel="stylesheet" href="/static/skin.css">  
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="/static/index.js"></script>
+    <style>
+    .upload-container {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .upload-container form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .upload-container label {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .upload-container select {
+        padding: 8px;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        outline: none;
+    }
+
+    .upload-container button {
+        padding: 10px;
+        font-size: 1.5rem;
+        color: #fff;
+        background-color: #080e14;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .upload-container button:hover {
+        background-color: #0056b3;
+    }
+
+    .upload-container .error {
+        color: red;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    .upload-container .recommendations {
+        margin-top: 20px;
+    }
+
+    .upload-container .recommendations h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .upload-container .recommendations ul {
+        list-style: disc;
+        padding-left: 20px;
+    }
+
+    .upload-container .recommendations li {
+        font-size: 1rem;
+        color: #555;
+    }
+    </style>
+</head>
+
+<body id="wrapper">
+    <span><marquee direction="left" >Welcome To DIAGNOXAI</marquee></span>
+    <section id="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12 top-header-links">
+                    <ul class="contact_links">
+                        <li><i class="fa fa-phone"></i><a href="#">+91 000 111 0101</a></li>
+                        <li><i class="fa fa-envelope"></i><a href="#">diagnoaxi@gmail.com</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+                     <a class="navbar-brand" href="#">
+                        <h2>DiagnoxAI</h2><span></span></a> 
+                        <!-- <div class="logo">
+                            <img src="img/logo.png" alt="" width="130px" height="130px">   110 and 65 
+                           </div> -->
+                </div>
+                <div id="navbar" class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li ><a href="/home">Home</a></li>
+                        <li><a href="/brain">Brain Diagnosis</a></li>
+                        <li ><a href="/diabetes">Diabetes</a></li>
+                        
+                        <li><a href="/vision_assist">Vision Assist</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Other</a>
+                                <!-- <span class="glyphicon glyphicon-chevron-right"></span></a>  -->
+                            <ul class="dropdown-menu  dropdown-menu-right">
+                                <li><a href="/heart">Heart Attack</a></li>
+                                <li><a href="/index">Medicines Recommendations</a></li>
+                                <!-- <li><a href="login1.html">Food Poisoning</a></li> -->
+                                </ul>
+                        </li>
+                        <li ><a href="/contect">Contact Us</a></li> 
+                        <li><a href="/help">HELP</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
+        <!--/.nav-ends -->
+    </header>
+    <section id="top_banner">
+        <div class="banner">
+            <div class="inner text-center">
+                <h2>Living Well with Diabetes Starts Here</h2>
+            </div>
+        </div>
+        <div class="page_info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-8 col-xs-6">
+                        <!-- <h4>Contact</h4> -->
+                    </div>
+                    <!-- <div class="col-md-4 col-sm-4 col-xs-6" style="text-align:right;">Home<span class="sep"> / </span><span class="current">Contact</span></div> -->
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <section id="contact-page">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h2> <span>Select Your Medicines</span></h2>
+                <p class="subheading"></p>
+            </div>
+            <div class="upload-container">
+                <form action="/index" method="POST">
+                    <label for="medicine_name">Type your medicine name whose alternative is to be recommended:</label>
+                    <select id="medicine_name" name="medicine_name" required>
+                        {% for medicine in medicines %}
+                        <option value="{{ medicine }}" {% if medicine == selected_medicine %}selected{% endif %}>{{ medicine }}</option>
+                        {% endfor %}
+                    </select>
+                    <button type="submit">Recommend Medicine</button>
+                </form>
+        
+                <!-- Display Error -->
+                {% if error %}
+                <div style="color: red; margin-top: 20px;">
+                    <strong>Error:</strong> {{ error }}
+                </div>
+                {% endif %}
+        
+                <!-- Display Recommendations -->
+                {% if recommendations %}
+                <div style="margin-top: 20px;">
+                    <h3>Recommended Medicines:</h3>
+                    <ul>
+                        {% for medicine in recommendations %}
+                        <li>{{ medicine }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+            </div>
+        
+            </div> 
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-12 block">
+                    <div class="footer-block">
+                        <h4>Address</h4>
+                        <hr/>
+                        <p>Parul University,Post Limda,Waghodia,Gujarat-391760.
+                        </p>
+                        
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12 block">
+                    <div class="footer-block">
+                        <h4>Useful Links</h4>
+                        <hr/>
+                        <ul class="footer-links">
+                            <li><a href="/home">Home</a></li>
+                            <li><a href="/brain">Brain Diagnosis</a></li>
+                            <li><a href="/diabetes">Diabetes</a></li>
+                            <li><a href="/vision_assist">Vision Assist</a></li>
+                            <!-- <li><a href="/symptoms">Symptoms Analysis</a></li> -->
+                            <li><a href="/contect">Contact Us</a></li>
+                            <li><a href="/help">Help</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                 <div class="col-md-3 col-sm-3 col-xs-12 block">
+                    <div class="footer-block">
+                        <h4>Contact</h4>
+                        <hr/>
+                        <p>Phone: +91 000 111 0101 , <br>
+
+                            Mobile No: +91 111 000 1010<br><br>
+
+                            Email Address : diagnoxai@gmail.com</p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="bottom-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12 btm-footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </div>
+                <div class="col-md-6 col-sm-6  col-xs-12 btm-footer">
+                    Developed by: Henilsinh Raj, Aarati joshi, Gopi Kota, Nisharg Barochiya
+                </div>
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
