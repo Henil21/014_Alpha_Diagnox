@@ -1,0 +1,462 @@
+
+
+/******************* LIGHT GREEN THEME *******************/
+body.lightgreen span {
+	/* color:rgba(56, 145, 21); */
+    color:#10101c;
+}
+body.lightgreen .slide:hover, body.lightgreen .slide:focus {
+	box-shadow: inset 12.5em 0 0 0 #10101c;
+}
+body.lightgreen .btn-primary {
+	padding: 15px 50px;
+	border-radius: 0px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#10101c;
+	background-color: #fff;
+	border-color: #10101c;
+	background: none;
+}
+body.lightgreen .btn-primary:focus, body.lightgreen .btn-primary.focus {
+	color: #10101c;
+	background-color: #e6e6e6;
+	border-color: #70931c;
+}
+body.lightgreen .btn-primary:hover {
+	color: #10101c;
+	background-color: #e6e6e6;
+	border-color: #9acb26;
+}
+body.lightgreen .btn-primary:active, body.lightgreen .btn-primary.active, .open > body.lightgreen .btn-primary.dropdown-toggle {
+	color: #10101c;
+	background-color: #e6e6e6;
+	border-color: #9acb26;
+}
+body.lightgreen .btn-primary:active:hover, body.lightgreen .btn-primary:active:focus, body.lightgreen .btn-primary:active.focus, body.lightgreen .btn-primary.active:hover, body.lightgreen .btn-primary.active:focus, body.lightgreen .btn-primary.active.focus, .open > body.lightgreen .btn-primary.dropdown-toggle:hover, .open > body.lightgreen .btn-primary.dropdown-toggle:focus, .open > body.lightgreen .btn-primary.dropdown-toggle.focus {
+	color: #10101c;
+	background-color: #d4d4d4;
+	border-color: #70931c;
+}
+body.lightgreen .btn-primary:active, body.lightgreen .btn-primary.active, .open > body.lightgreen .btn-primary.dropdown-toggle {
+	background-image: none;
+}
+body.lightgreen .btn-primary.disabled:hover, body.lightgreen .btn-primary.disabled:focus, body.lightgreen .btn-primary.disabled.focus, body.lightgreen .btn-primary[disabled]:hover, body.lightgreen .btn-primary[disabled]:focus, body.lightgreen .btn-primary[disabled].focus, fieldset[disabled] body.lightgreen .btn-primary:hover, fieldset[disabled] body.lightgreen .btn-primary:focus, fieldset[disabled] body.lightgreen .btn-primary.focus {
+	background-color: #fff;
+	border-color: #10101c;
+}
+body.lightgreen .btn-primary .badge {
+	color: #fff;
+	background-color: #10101c;
+}
+body.lightgreen .btn-primary:hover, body.lightgreen .btn-primary:focus, body.lightgreen .btn-primary:active {
+	color: #fff;
+	background-color: #10101c;
+	border-color:#10101c;
+	transition: 0.25s;
+}
+body.lightgreen .btn-primary:hover:focus, body.lightgreen .btn-primary:hover.focus, body.lightgreen .btn-primary:focus:focus, body.lightgreen .btn-primary:focus.focus, body.lightgreen .btn-primary:active:focus, body.lightgreen .btn-primary:active.focus {
+	color: #fff;
+	background-color: #a0d328;
+	border-color: #70931c;
+}
+body.lightgreen .btn-primary:hover:hover, body.lightgreen .btn-primary:focus:hover, body.lightgreen .btn-primary:active:hover {
+	color: #fff;
+	background-color: #a0d328;
+	border-color: #9acb26;
+}
+body.lightgreen .btn-primary:hover:active, body.lightgreen .btn-primary:hover.active, .open > body.lightgreen .btn-primary:hover.dropdown-toggle, body.lightgreen .btn-primary:focus:active, body.lightgreen .btn-primary:focus.active, .open > body.lightgreen .btn-primary:focus.dropdown-toggle, body.lightgreen .btn-primary:active:active, body.lightgreen .btn-primary:active.active, .open > body.lightgreen .btn-primary:active.dropdown-toggle {
+	color: #fff;
+	background-color: #a0d328;
+	border-color: #9acb26;
+}
+body.lightgreen .btn-primary:hover:active:hover, body.lightgreen .btn-primary:hover:active:focus, body.lightgreen .btn-primary:hover:active.focus, body.lightgreen .btn-primary:hover.active:hover, body.lightgreen .btn-primary:hover.active:focus, body.lightgreen .btn-primary:hover.active.focus, .open > body.lightgreen .btn-primary:hover.dropdown-toggle:hover, .open > body.lightgreen .btn-primary:hover.dropdown-toggle:focus, .open > body.lightgreen .btn-primary:hover.dropdown-toggle.focus, body.lightgreen .btn-primary:focus:active:hover, body.lightgreen .btn-primary:focus:active:focus, body.lightgreen .btn-primary:focus:active.focus, body.lightgreen .btn-primary:focus.active:hover, body.lightgreen .btn-primary:focus.active:focus, body.lightgreen .btn-primary:focus.active.focus, .open > body.lightgreen .btn-primary:focus.dropdown-toggle:hover, .open > body.lightgreen .btn-primary:focus.dropdown-toggle:focus, .open > body.lightgreen .btn-primary:focus.dropdown-toggle.focus, body.lightgreen .btn-primary:active:active:hover, body.lightgreen .btn-primary:active:active:focus, body.lightgreen .btn-primary:active:active.focus, body.lightgreen .btn-primary:active.active:hover, body.lightgreen .btn-primary:active.active:focus, body.lightgreen .btn-primary:active.active.focus, .open > body.lightgreen .btn-primary:active.dropdown-toggle:hover, .open > body.lightgreen .btn-primary:active.dropdown-toggle:focus, .open > body.lightgreen .btn-primary:active.dropdown-toggle.focus {
+	color: #fff;
+	background-color: #8ab522;
+	border-color: #70931c;
+}
+body.lightgreen .btn-primary:hover:active, body.lightgreen .btn-primary:hover.active, .open > body.lightgreen .btn-primary:hover.dropdown-toggle, body.lightgreen .btn-primary:focus:active, body.lightgreen .btn-primary:focus.active, .open > body.lightgreen .btn-primary:focus.dropdown-toggle, body.lightgreen .btn-primary:active:active, body.lightgreen .btn-primary:active.active, .open > body.lightgreen .btn-primary:active.dropdown-toggle {
+	background-image: none;
+}
+body.lightgreen .btn-primary:hover.disabled:hover, body.lightgreen .btn-primary:hover.disabled:focus, body.lightgreen .btn-primary:hover.disabled.focus, body.lightgreen .btn-primary:hover[disabled]:hover, body.lightgreen .btn-primary:hover[disabled]:focus, body.lightgreen .btn-primary:hover[disabled].focus, fieldset[disabled] body.lightgreen .btn-primary:hover:hover, fieldset[disabled] body.lightgreen .btn-primary:hover:focus, fieldset[disabled] body.lightgreen .btn-primary:hover.focus, body.lightgreen .btn-primary:focus.disabled:hover, body.lightgreen .btn-primary:focus.disabled:focus, body.lightgreen .btn-primary:focus.disabled.focus, body.lightgreen .btn-primary:focus[disabled]:hover, body.lightgreen .btn-primary:focus[disabled]:focus, body.lightgreen .btn-primary:focus[disabled].focus, fieldset[disabled] body.lightgreen .btn-primary:focus:hover, fieldset[disabled] body.lightgreen .btn-primary:focus:focus, fieldset[disabled] body.lightgreen .btn-primary:focus.focus, body.lightgreen .btn-primary:active.disabled:hover, body.lightgreen .btn-primary:active.disabled:focus, body.lightgreen .btn-primary:active.disabled.focus, body.lightgreen .btn-primary:active[disabled]:hover, body.lightgreen .btn-primary:active[disabled]:focus, body.lightgreen .btn-primary:active[disabled].focus, fieldset[disabled] body.lightgreen .btn-primary:active:hover, fieldset[disabled] body.lightgreen .btn-primary:active:focus, fieldset[disabled] body.lightgreen .btn-primary:active.focus {
+	background-color: #10101c;
+	border-color: #10101c;
+}
+body.lightgreen .btn-primary:hover .badge, body.lightgreen .btn-primary:focus .badge, body.lightgreen .btn-primary:active .badge {
+	color: #10101c;
+	background-color: #fff;
+}
+body.lightgreen .btn-primary:hover:hover, body.lightgreen .btn-primary:hover:focus, body.lightgreen .btn-primary:hover.focus, body.lightgreen .btn-primary:focus:hover, body.lightgreen .btn-primary:focus:focus, body.lightgreen .btn-primary:focus.focus, body.lightgreen .btn-primary:active:hover, body.lightgreen .btn-primary:active:focus, body.lightgreen .btn-primary:active.focus {
+	color: #fff;
+	text-decoration: none;
+}
+body.lightgreen .btn-primary:hover i, body.lightgreen .btn-primary:focus i, body.lightgreen .btn-primary:active i {
+	color: #fff;
+}
+body.lightgreen .btn-default {
+	padding: 15px 50px;
+	border-radius: 0px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #10101c;
+	border-color: #10101c;
+}
+body.lightgreen .btn-default:focus, body.lightgreen .btn-default.focus {
+	color: #fff;
+	background-color: #a0d328;
+	border-color: #70931c;
+}
+body.lightgreen .btn-default:hover {
+	color: #fff;
+	background-color: #a0d328;
+	border-color: #9acb26;
+}
+body.lightgreen .btn-default:active, body.lightgreen .btn-default.active, .open > body.lightgreen .btn-default.dropdown-toggle {
+	color: #fff;
+	background-color: #a0d328;
+	border-color: #9acb26;
+}
+body.lightgreen .btn-default:active:hover, body.lightgreen .btn-default:active:focus, body.lightgreen .btn-default:active.focus, body.lightgreen .btn-default.active:hover, body.lightgreen .btn-default.active:focus, body.lightgreen .btn-default.active.focus, .open > body.lightgreen .btn-default.dropdown-toggle:hover, .open > body.lightgreen .btn-default.dropdown-toggle:focus, .open > body.lightgreen .btn-default.dropdown-toggle.focus {
+	color: #fff;
+	background-color: #8ab522;
+	border-color: #70931c;
+}
+body.lightgreen .btn-default:active, body.lightgreen .btn-default.active, .open > body.lightgreen .btn-default.dropdown-toggle {
+	background-image: none;
+}
+body.lightgreen .btn-default.disabled:hover, body.lightgreen .btn-default.disabled:focus, body.lightgreen .btn-default.disabled.focus, body.lightgreen .btn-default[disabled]:hover, body.lightgreen .btn-default[disabled]:focus, body.lightgreen .btn-default[disabled].focus, fieldset[disabled] body.lightgreen .btn-default:hover, fieldset[disabled] body.lightgreen .btn-default:focus, fieldset[disabled] body.lightgreen .btn-default.focus {
+	background-color: #10101c;
+	border-color: #10101c;
+}
+body.lightgreen .btn-default .badge {
+	color: #10101c;
+	background-color: #fff;
+}
+body.lightgreen .btn-default i {
+	color: #fff;
+}
+body.lightgreen .btn-default:hover {
+	color: #fff;
+	background-color: #10101c;
+	border-color: #10101c;
+	transition: 0.25s;
+}
+body.lightgreen .btn-default:hover:focus, body.lightgreen .btn-default:hover.focus {
+	color: #fff;
+	background-color: #a0d328;
+	border-color: #70931c;
+}
+body.lightgreen .btn-default:hover:hover {
+	color: #fff;
+	background-color: #a0d328;
+	border-color: #9acb26;
+}
+body.lightgreen .btn-default:hover:active, body.lightgreen .btn-default:hover.active, .open > body.lightgreen .btn-default:hover.dropdown-toggle {
+	color: #fff;
+	background-color: #a0d328;
+	border-color: #9acb26;
+}
+body.lightgreen .btn-default:hover:active:hover, body.lightgreen .btn-default:hover:active:focus, body.lightgreen .btn-default:hover:active.focus, body.lightgreen .btn-default:hover.active:hover, body.lightgreen .btn-default:hover.active:focus, body.lightgreen .btn-default:hover.active.focus, .open > body.lightgreen .btn-default:hover.dropdown-toggle:hover, .open > body.lightgreen .btn-default:hover.dropdown-toggle:focus, .open > body.lightgreen .btn-default:hover.dropdown-toggle.focus {
+	color: #fff;
+	background-color: #8ab522;
+	border-color: #70931c;
+}
+body.lightgreen .btn-default:hover:active, body.lightgreen .btn-default:hover.active, .open > body.lightgreen .btn-default:hover.dropdown-toggle {
+	background-image: none;
+}
+body.lightgreen .btn-default:hover.disabled:hover, body.lightgreen .btn-default:hover.disabled:focus, body.lightgreen .btn-default:hover.disabled.focus, body.lightgreen .btn-default:hover[disabled]:hover, body.lightgreen .btn-default:hover[disabled]:focus, body.lightgreen .btn-default:hover[disabled].focus, fieldset[disabled] body.lightgreen .btn-default:hover:hover, fieldset[disabled] body.lightgreen .btn-default:hover:focus, fieldset[disabled] body.lightgreen .btn-default:hover.focus {
+	background-color: #10101c;
+	border-color: #10101c;
+}
+body.lightgreen .btn-default:hover .badge {
+	color: #10101c;
+	background-color: #fff;
+}
+body.lightgreen .btn-default:hover:hover, body.lightgreen .btn-default:hover:focus, body.lightgreen .btn-default:hover.focus {
+	color: #fff;
+	text-decoration: none;
+}
+body.lightgreen .btn-default:hover i {
+	color: #777777;
+}
+body.lightgreen #top-header ul.contact_links a:hover {
+	color: #10101c;
+}
+body.lightgreen #top-header ul.social_links i:hover {
+	color: #10101c;
+}
+body.lightgreen .navbar-brand h2 {
+	color:#10101c !important;
+}
+body.lightgreen .navbar-brand span {
+	color: rgba(0,0,0) !important;
+}
+body.lightgreen .navbar-inverse .navbar-toggle:hover, body.lightgreen .navbar-inverse .navbar-toggle:focus {
+	background-color: #fff;
+}
+body.lightgreen .navbar-inverse .navbar-toggle {
+	border-color: #10101c;
+}
+body.lightgreen .navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #10101c;
+}
+body.lightgreen i {
+	color: #10101c;
+}
+body.lightgreen .btn-default:hover {
+	color: #fff;
+	background-color: #10101c;
+	border-color: #10101c;
+}
+body.lightgreen .btn-default:hover:focus, body.lightgreen .btn-default:hover.focus {
+	color: #fff;
+	background-color: #a0d328;
+	border-color: #70931c;
+}
+body.lightgreen .btn-default:hover:hover {
+	color: #fff;
+	background-color: #a0d328;
+	border-color: #9acb26;
+}
+body.lightgreen .btn-default:hover:active, body.lightgreen .btn-default:hover.active, .open > body.lightgreen .btn-default:hover.dropdown-toggle {
+	color: #fff;
+	background-color: #a0d328;
+	border-color: #9acb26;
+}
+body.lightgreen .btn-default:hover:active:hover, body.lightgreen .btn-default:hover:active:focus, body.lightgreen .btn-default:hover:active.focus, body.lightgreen .btn-default:hover.active:hover, body.lightgreen .btn-default:hover.active:focus, body.lightgreen .btn-default:hover.active.focus, .open > body.lightgreen .btn-default:hover.dropdown-toggle:hover, .open > body.lightgreen .btn-default:hover.dropdown-toggle:focus, .open > body.lightgreen .btn-default:hover.dropdown-toggle.focus {
+	color: #fff;
+	background-color: #8ab522;
+	border-color: #70931c;
+}
+body.lightgreen .btn-default:hover:active, body.lightgreen .btn-default:hover.active, .open > body.lightgreen .btn-default:hover.dropdown-toggle {
+	background-image: none;
+}
+body.lightgreen .btn-default:hover.disabled:hover, body.lightgreen .btn-default:hover.disabled:focus, body.lightgreen .btn-default:hover.disabled.focus, body.lightgreen .btn-default:hover[disabled]:hover, body.lightgreen .btn-default:hover[disabled]:focus, body.lightgreen .btn-default:hover[disabled].focus, fieldset[disabled] body.lightgreen .btn-default:hover:hover, fieldset[disabled] body.lightgreen .btn-default:hover:focus, fieldset[disabled] body.lightgreen .btn-default:hover.focus {
+	background-color: #10101c;
+	border-color: #10101c;
+}
+body.lightgreen .btn-default:hover .badge {
+	color: #10101c;
+	background-color: #fff;
+}
+body.lightgreen .btn-default:hover:hover, body.lightgreen .btn-default:hover:focus, body.lightgreen .btn-default:hover.focus {
+	color: #777777;
+	background-color: #10101c;
+	text-decoration: none;
+}
+body.lightgreen .btn-primary:hover, body.lightgreen .btn-primary:focus, body.lightgreen .btn-primary:active {
+	color: #fff;
+	background-color:#10101c;
+	border-color: #10101c;
+}
+body.lightgreen .btn-primary:hover:focus, body.lightgreen .btn-primary:hover.focus, body.lightgreen .btn-primary:focus:focus, body.lightgreen .btn-primary:focus.focus, body.lightgreen .btn-primary:active:focus, body.lightgreen .btn-primary:active.focus {
+	color: #fff;
+	background-color: #a0d328;
+	border-color: #70931c;
+}
+body.lightgreen .btn-primary:hover:hover, body.lightgreen .btn-primary:focus:hover, body.lightgreen .btn-primary:active:hover {
+	color: #fff;
+	background-color: #a0d328;
+	border-color: #9acb26;
+}
+body.lightgreen .btn-primary:hover:active, body.lightgreen .btn-primary:hover.active, .open > body.lightgreen .btn-primary:hover.dropdown-toggle, body.lightgreen .btn-primary:focus:active, body.lightgreen .btn-primary:focus.active, .open > body.lightgreen .btn-primary:focus.dropdown-toggle, body.lightgreen .btn-primary:active:active, body.lightgreen .btn-primary:active.active, .open > body.lightgreen .btn-primary:active.dropdown-toggle {
+	color: #fff;
+	background-color: #a0d328;
+	border-color: #9acb26;
+}
+body.lightgreen .btn-primary:hover:active:hover, body.lightgreen .btn-primary:hover:active:focus, body.lightgreen .btn-primary:hover:active.focus, body.lightgreen .btn-primary:hover.active:hover, body.lightgreen .btn-primary:hover.active:focus, body.lightgreen .btn-primary:hover.active.focus, .open > body.lightgreen .btn-primary:hover.dropdown-toggle:hover, .open > body.lightgreen .btn-primary:hover.dropdown-toggle:focus, .open > body.lightgreen .btn-primary:hover.dropdown-toggle.focus, body.lightgreen .btn-primary:focus:active:hover, body.lightgreen .btn-primary:focus:active:focus, body.lightgreen .btn-primary:focus:active.focus, body.lightgreen .btn-primary:focus.active:hover, body.lightgreen .btn-primary:focus.active:focus, body.lightgreen .btn-primary:focus.active.focus, .open > body.lightgreen .btn-primary:focus.dropdown-toggle:hover, .open > body.lightgreen .btn-primary:focus.dropdown-toggle:focus, .open > body.lightgreen .btn-primary:focus.dropdown-toggle.focus, body.lightgreen .btn-primary:active:active:hover, body.lightgreen .btn-primary:active:active:focus, body.lightgreen .btn-primary:active:active.focus, body.lightgreen .btn-primary:active.active:hover, body.lightgreen .btn-primary:active.active:focus, body.lightgreen .btn-primary:active.active.focus, .open > body.lightgreen .btn-primary:active.dropdown-toggle:hover, .open > body.lightgreen .btn-primary:active.dropdown-toggle:focus, .open > body.lightgreen .btn-primary:active.dropdown-toggle.focus {
+	color: #fff;
+	background-color: #8ab522;
+	border-color: #70931c;
+}
+body.lightgreen .btn-primary:hover:active, body.lightgreen .btn-primary:hover.active, .open > body.lightgreen .btn-primary:hover.dropdown-toggle, body.lightgreen .btn-primary:focus:active, body.lightgreen .btn-primary:focus.active, .open > body.lightgreen .btn-primary:focus.dropdown-toggle, body.lightgreen .btn-primary:active:active, body.lightgreen .btn-primary:active.active, .open > body.lightgreen .btn-primary:active.dropdown-toggle {
+	background-image: none;
+}
+body.lightgreen .btn-primary:hover.disabled:hover, body.lightgreen .btn-primary:hover.disabled:focus, body.lightgreen .btn-primary:hover.disabled.focus, body.lightgreen .btn-primary:hover[disabled]:hover, body.lightgreen .btn-primary:hover[disabled]:focus, body.lightgreen .btn-primary:hover[disabled].focus, fieldset[disabled] body.lightgreen .btn-primary:hover:hover, fieldset[disabled] body.lightgreen .btn-primary:hover:focus, fieldset[disabled] body.lightgreen .btn-primary:hover.focus, body.lightgreen .btn-primary:focus.disabled:hover, body.lightgreen .btn-primary:focus.disabled:focus, body.lightgreen .btn-primary:focus.disabled.focus, body.lightgreen .btn-primary:focus[disabled]:hover, body.lightgreen .btn-primary:focus[disabled]:focus, body.lightgreen .btn-primary:focus[disabled].focus, fieldset[disabled] body.lightgreen .btn-primary:focus:hover, fieldset[disabled] body.lightgreen .btn-primary:focus:focus, fieldset[disabled] body.lightgreen .btn-primary:focus.focus, body.lightgreen .btn-primary:active.disabled:hover, body.lightgreen .btn-primary:active.disabled:focus, body.lightgreen .btn-primary:active.disabled.focus, body.lightgreen .btn-primary:active[disabled]:hover, body.lightgreen .btn-primary:active[disabled]:focus, body.lightgreen .btn-primary:active[disabled].focus, fieldset[disabled] body.lightgreen .btn-primary:active:hover, fieldset[disabled] body.lightgreen .btn-primary:active:focus, fieldset[disabled] body.lightgreen .btn-primary:active.focus {
+	background-color:#10101c;
+	border-color: #10101c;
+}
+body.lightgreen .btn-primary:hover .badge, body.lightgreen .btn-primary:focus .badge, body.lightgreen .btn-primary:active .badge {
+	color: #10101c;
+	background-color: #fff;
+}
+body.lightgreen .btn-primary:hover:hover, body.lightgreen .btn-primary:hover:focus, body.lightgreen .btn-primary:hover.focus, body.lightgreen .btn-primary:focus:hover, body.lightgreen .btn-primary:focus:focus, body.lightgreen .btn-primary:focus.focus, body.lightgreen .btn-primary:active:hover, body.lightgreen .btn-primary:active:focus, body.lightgreen .btn-primary:active.focus {
+	color: #fff;
+	background-color: #10101c;
+	border-color: #10101c;
+	text-decoration: none;
+}
+body.lightgreen .section-heading span {
+	color: #10101c;
+}
+body.lightgreen .navbar-inverse .navbar-nav > li > a:hover, body.lightgreen .navbar-inverse .navbar-nav > li > a:focus {
+	color: #10101c;
+	background-color: transparent;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #10101c;
+}
+body.lightgreen .navbar-inverse .navbar-nav > .active > a, body.lightgreen .navbar-inverse .navbar-nav > .active > a:hover, body.lightgreen .navbar-inverse .navbar-nav > .active > a:focus {
+	color: #10101c;
+	background-color: transparent;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #10101c;
+}
+body.lightgreen #myCarousel .carousel-indicators .active {
+	background-color: #10101c;
+	border-color: #10101c;
+}
+body.lightgreen #features a.readmore {
+	color: #10101c;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+body.lightgreen #process .process-block:hover .process-icon {
+	background-color: #10101c;
+}
+body.lightgreen #process .process-block:hover .process-icon-holder {
+	border-color:#10101c;
+}
+body.lightgreen #process .process-block:hover .process-border {
+	border: 20px solid #10101c;
+}
+body.lightgreen #testimonial .user-info {
+	display: inline-block;
+}
+body.lightgreen #testimonial .user-info p {
+	color:#10101c;
+}
+body.lightgreen #footer a:hover {
+	color: #10101c;
+}
+body.lightgreen #footer a:hover i {
+	color: #10101c;
+}
+body.lightgreen #footer .footer-block hr {
+	background-color: #10101c;
+	width: 50px;
+	height: 3px;
+	border-top: 1px solid #34363e;
+	margin-top: 0px;
+	display: inline-block;
+}
+body.lightgreen #bottom-footer .copyright a {
+	color: #10101c;
+}
+body.lightgreen #bottom-footer .copyright a:hover {
+	text-decoration: underline;
+}
+body.lightgreen #bottom-footer a:hover {
+	color: #10101c;
+}
+body.lightgreen #panel .open {
+	background-color:#10101c;
+	display: block;
+	width: 42px;
+	border-radius: 0 3px 3px 0;
+	height: 42px;
+	float: right;
+	font-size: 22px;
+	top: 60px;
+	right: -42px;
+	z-index: 1000;
+	position: absolute;
+}
+body.lightgreen #skills .progress.color .progress-bar {
+	border-color: #10101c;
+}
+body.lightgreen #skills .progress.color .progress-value {
+	color: #fff;
+	background-color: #10101c;
+}
+body.lightgreen #skills .progress.progress-bar-1 .progress-left .progress-bar {
+	animation: loading-2 1.5s linear forwards 1.8s;
+}
+body.lightgreen #skills .progress.progress-bar-2 .progress-left .progress-bar {
+	animation: loading-3 1s linear forwards 1.8s;
+}
+body.lightgreen #skills .progress.progress-bar-3 .progress-left .progress-bar {
+	animation: loading-4 0.4s linear forwards 1.8s;
+}
+body.lightgreen #skills .progress.progress-bar-4 .progress-left .progress-bar {
+	animation: loading-5 1.2s linear forwards 1.8s;
+}
+body.lightgreen #team-member .qodef-circle-animate {
+	background-color: #10101c;;
+}
+body.lightgreen #portfolio .portfolio-hover {
+	background-color: #10101c;;
+}
+body.lightgreen #portfolio .submit-button {
+	background: #10101c;;
+}
+body.lightgreen #contact-page .submit-button {
+	background: #10101c;;
+}
+body.lightgreen #faq .icon-circle {
+	background:#10101c;;
+}
+body.lightgreen #faq .panel-title a:hover, body.lightgreen #faq .panel-title a:active {
+	color: #10101c;;
+}
+body.lightgreen #features-page .right-background {
+	background-color: #10101c;;
+}
+body.lightgreen #features-page .right-background:before {
+	right: -999em;
+	background:#10101c;;
+	content: '';
+	display: block;
+	position: absolute;
+	width: 999em;
+	top: 0;
+	bottom: 0;
+}
+body.lightgreen #features-page .iconbox-style.icon-color i.boxicon {
+	color: #10101c !important;
+}
+body.lightgreen #features-page .flip .icon-color.card .back {
+	background: #10101c;
+}
+body.lightgreen #features-page .divider5 {
+	border-bottom-color: #10101c;
+}
+body.lightgreen #features-page .feature-section-3-left {
+	color: #10101c;
+}
+body.lightgreen #features-page .feature-section-3-left h1 {
+	color:#10101c;
+}
+body.lightgreen #features-page .feature-section-3-right {
+	background-color: #10101c;
+}
+body.lightgreen #features-page .pricing-plan-2 {
+	background-color: #10101c;
+}
+body.lightgreen #features-page hr {
+	background-color: #10101c;
+}
+body.lightgreen #features-page .right-section {
+	background-color: #10101c;
+}
+body.lightgreen #login-reg .form-box .btn {
+	background-color: #10101c;
+}
+.logo{
+	/*     
+		 color: white;
+		font-size: 28px;
+		font-family:Arial, Helvetica, sans-serif; */
+		padding-left: 10px;
+		float: right;
+		padding-top: 0px;
+
+		
+		
+		
+		 
+	}
+	
+	
