@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Brain</title>
+    <style>
+            .b {
+                font-family: Arial, sans-serif;
+                background-color: #f4f8fc;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+
+            
+        .upload-container {
+    text-align: center;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    border-radius: 15px; /* Slightly more rounded corners */
+    padding: 30px;
+    width: 450px; /* Slightly wider */
+    position: relative;
+    top: 230px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.upload-container:hover {
+    transform: translate(-50%, -50%) scale(1.05); /* Slightly scale up on hover */
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.upload-container img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.upload-container p {
+    margin: 20px 0;
+    font-size: 18px; /* Slightly larger font */
+    color: #333;
+}
+
+.upload-container input[type="file"] {
+    display: none;
+}
+
+.browse-button {
+    color: #007bff;
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Bold text */
+    cursor: pointer;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.browse-button:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+.submit-button {
+    background-color: #28a745; /* Green button */
+    color: #fff;
+    border: none;
+    padding: 12px 30px; /* Larger padding */
+    border-radius: 8px; /* More rounded corners */
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px; /* More space at the top */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.submit-button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+    </style>
+    
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+   
+    <link rel="stylesheet" href="/static/main.css">
+    <link rel="stylesheet" href="/static/skin.css">  
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="/static/index.js"></script>
+    
+</head>
+
+<body id="wrapper">
+    <span><marquee direction="left" >Welcome To DIAGNOXAI</marquee></span>
+    <section id="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12 top-header-links">
+                    <ul class="contact_links">
+                        <li><i class="fa fa-phone"></i><a href="#">+91 000 111 0101</a></li>
+                        <li><i class="fa fa-envelope"></i><a href="#">diagnoxai@gmail.com</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                
+                     <a class="navbar-brand" href="#">
+                        <h2>DiagnoxAI</h2><span></span></a> 
+                        <!-- <div class="logo">
+                            <img src="img/logo.png" alt="" width="130px" height="130px">   110 and 65 
+                           </div> -->
+                </div>
+                <div id="navbar" class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li ><a href="/home">Home</a></li>
+                        <li class="active"><a href="/brain">Brain Diagnosis</a></li>
+                        <li><a href="/diabetes">Diabetes</a></li>
+                        <li><a href="/vision_assist">Vision Assist</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Other</a>
+                                <!-- <span class="glyphicon glyphicon-chevron-right"></span></a>  -->
+                            <ul class="dropdown-menu  dropdown-menu-right">
+                                <li><a href="/heart">Heart Attack</a></li>
+                                <li><a href="/index">Medical Recommendations</a></li>
+                                <!-- <li><a href="login1.html">Food Poisoning</a></li> -->
+                                </ul>
+                        </li>
+                        <li><a href="/contect">Contact Us</a></li> 
+                        <li><a href="/help">HELP</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
+        <!--/.nav-ends -->
+    </header>
+    <section id="top_banner">
+        <div class="banner">
+            <div class="inner text-center">
+                <h2>AI that thinks,so you can thrive</h2>
+            </div>
+        </div>
+        <div class="page_info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-8 col-xs-6">
+                        <!-- <h4>Contact</h4> -->
+                    </div>
+                        <!-- <div class="col-md-4 col-sm-4 col-xs-6" style="text-align:right;">Home<span class="sep"> / </span><span class="current">Contact</span></div> -->
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <section id="contact-page">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h2>Drop your <span>MRI image</span></h2>
+                <p class="subheading"></p>
+            </div>
+            <!-- <div class="row contact-wrap">
+                <div class="status alert alert-success" style="display: none"></div>
+                -->
+                <div class="upload-container">
+                    <img src="data:image/png;base64,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" alt="Upload Icon">
+                    <p>Drop your brain MRI image here, or <span class="browse-button" onclick="document.getElementById('fileInput').click()">browse</span></p>
+                    <form action="/brain" method="POST" enctype="multipart/form-data">
+                        <input type="file" name="file" id="fileInput" accept="image/*" required>
+                        <button type="submit" class="submit-button">Submit</button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-12 block">
+                    <div class="footer-block">
+                        <h4>Address</h4>
+                        <hr/>
+                        <p>Parul University,Post Limda,Waghodia,Gujarat-391760.
+                        </p>
+                        <!-- <a href="#" class="learnmore">Learn More <i class="fa fa-caret-right"></i></a> -->
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12 block">
+                    <div class="footer-block">
+                        <h4>Useful Links</h4>
+                        <hr/>
+                        <ul class="footer-links">
+                            <li><a href="/home">Home</a></li>
+                            <li><a href="/brain">Brain Diagnosis</a></li>
+                            <li><a href="/diabetes">Diabetes</a></li>
+                            <li><a href="/vision_assist">Vision Assist</a></li>
+                            <!-- <li><a href="/symptoms">Symptoms Analysis</a></li> -->
+                            <li><a href="/contect">Contact Us</a></li>
+                            <li><a href="/help">Help</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                 <div class="col-md-3 col-sm-3 col-xs-12 block">
+                    <div class="footer-block">
+                        <h4>Contact</h4>
+                        <hr/>
+                        <p>Phone: +91 000 111 0101 , <br>
+
+                            Mobile No: +91 111 000 1010<br><br>
+
+                            Email Address : diagnoxai@gmail.com</p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="bottom-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12 btm-footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </div>
+                <div class="col-md-6 col-sm-6  col-xs-12 btm-footer">
+                    Developed by: Henilsinh Raj, Aarati Joshi, Gopi Kota, Nisharg Barochiya
+                </div>
+                <!-- <div class="col-md-6 col-sm-6 col-xs-12 copyright">
+                    Developed by <a href="#">Aspire Software Solutions</a> designed by <a href="#">Designing Team</a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+</html>
